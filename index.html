@@ -14,8 +14,7 @@
             color: #333333;
         }
     </style>
-
-</head>
+    
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     
@@ -25,6 +24,10 @@
 
     <!-- Bootstrap + Ollie main styles -->
 	<link rel="stylesheet" href="assets/css/ollie.css">
+
+    <!--CSS FILES-->
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link href="css/tooplate-little-fashion.css" rel="stylesheet"/>
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -45,16 +48,16 @@
                         <a class="nav-link" href="#aboutus">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#productinfo">Product info</a>
+                        <a class="nav-link" href="#product">Product info</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#faqs">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#shipping">Shipping</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#m">Contact</a>
                     </li>
                     <search>
                         <form>
@@ -86,12 +89,10 @@
                             <h1 style="padding: 30px 0 0 0; text-align: center;" class="carousel-title"><strong style="color: black;">Our</strong> <strong style="color: red;">26 years</strong> 
                                 <strong style="color: black;">of seasoning experience can bring you</strong>
                                 <br> <strong style="color:blue;">time-saving, pickling and seasoning-saving fried chicken noodles!</strong></h1>
-                            <button class ="btn btn-primary btn-rounded">MORE DETAILS</button>
                         </div>
                           </div>
                     </div>
                     <div class="carousel-item">
-                            <button class="btn btn-primary btn-rounded">MORE DETAILS</button>
                           </div>
                     </div>
                 </div>
@@ -104,19 +105,10 @@
             <div class="socials text-right">
                 <div class="row justify-content-between">
                     <div class="col">
-                        <a class="d-block subtitle"><i class="ti-microphone pr-2"></i> (123) 456-7890</a>
-                        <a class="d-block subtitle"><i class="ti-email pr-2"></i> info@website.com</a>
+                        
                     </div>
                     <div class="col">
-                        <h6 class="subtitle font-weight-normal mb-2">Social Media</h6>
-                        <div class="social-links">
-                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-facebook"></i></a>
-                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-twitter-alt"></i></a>
-                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-google"></i></a>
-                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-pinterest-alt"></i></a>
-                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-instagram"></i></a>
-                            <a href="javascript:void(0)" class="link pr-1"><i class="ti-rss"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -126,22 +118,36 @@
 
         <div class="container">
 
-            <div class="row align-items-center mr-auto">
-                <div class="col-md-4">
-                    <h3 class="section-title">About Us</h3>
-                    <p>Lee Sook Fang is the founder and owner of Grandpa’s Fried Chicken Seasoning. The business was established in 2020 and is committed to bring the family's delicious fried chicken powder to more people. 
-                    The store focuses on selling a unique fried chicken powder- a traditional recipe from the family. This recipe is inherited from the client's dearest grandfather. The client’s grandfather often uses this unique recipe to make delicious fried chicken for his family, bringing countless warmth and beautiful memories.</p>
-
-                        </div>
-                    </div>
+            <div class="row align-items-center mr-auto" style="align-items: right;"> 
+                <div class="col-md-12"> 
+                    <table>
+                        <tr>
+                            <td style="vertical-align: top;">
+                                <h1 style="background-color: #D9D0B2 ; padding: 20px; width: 270px; text-align: center;"> About Us</h1>
+                                
+                                <p>Lee Sook Fang is the founder and owner of Grandpa’s Fried Chicken Seasoning. The business was established in 2020 and is committed to bring the family's delicious fried chicken powder to more people. </p>
+                                <p>The store focuses on selling a unique fried chicken powder- a traditional recipe from the family. This recipe is inherited from the client's dearest grandfather. The client’s grandfather often uses this unique recipe to make delicious fried chicken for his family, bringing countless warmth and beautiful memories.</p>
+                            </td>
+                            <td>
+                             <img src="file:///C:/Users/user/OneDrive/Documents/GitHub/alerine05.github.io/assets/imgs/image%203.jpg" alt=" "style="width: 150%; height: auto;">
+                            </td>
+                        </tr>
+                    </table>
                 </div>
+
+                    
+                    
+
+                    </div>
+                </div> 
              </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" >
         <div class="container">
-            <h3 class="section-title mb-4">Product Info</h3>
+            <h3 class="section-title mb-4" id="productinfo" name="productinfo"> 
+                <h1 style="background-color: #EFEBDF ; padding: 20px; width: 270px; text-align: center;"> Product Info</h3>
 
             <div class="row text-center">
                 <div class="col-lg-4">
@@ -173,66 +179,61 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section class="section" id="portfolio">
-        <div class="container">
-            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-            <h3 class="section-title pb-4">FAQs</h3>
+     <div class="faq-section">
+        <h2>General Info</h2>
+    
+        <div class="faq-item">
+            <p>What is Grandpa's Fried Chicken Seasoning?</p>
+            <span class="arrow" onclick="toggleFAQ(this)">▼</span>
         </div>
-
-        <div id="owl-portfolio" class="owl-carousel owl-theme mt-4">
-            <a href="javascript:void(0)" class="item expertises-item">
-                <img src="assets/imgs/img-1.jpg"alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" class="box-shadow">
-                <h6 class="mt-3 mb-2">Fuga asperiores</h6>
-                <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </a> 
-            <a href="javascript:void(0)" class="item expertises-item">
-                <img src="assets/imgs/img-2.jpg"alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" class="box-shadow">
-                <h6 class="mt-3 mb-2">Voluptatibus iure!</h6>
-                <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </a> 
-            <a href="javascript:void(0)" class="item expertises-item">
-                <img src="assets/imgs/img-3.jpg"alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" class="box-shadow">
-                <h6 class="mt-3 mb-2">Autem minus animi</h6>
-                <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </a> 
-            <a href="javascript:void(0)" class="item expertises-item">
-                <img src="assets/imgs/img-4.jpg"alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" class="box-shadow">
-                <h6 class="mt-3 mb-2">Sed eligendi</h6>
-                <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </a> 
-            <a href="javascript:void(0)" class="item expertises-item">
-                <img src="assets/imgs/img-8.jpg"alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" class="box-shadow">
-                <h6 class="mt-3 mb-2">Totam eveniet assumenda!</h6>
-                <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </a> 
-            <a href="javascript:void(0)" class="item expertises-item">
-                <img src="assets/imgs/img-9.jpg"alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" class="box-shadow">
-                <h6 class="mt-3 mb-2">Sapiente dolore ut</h6>
-                <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </a>             
+        <div class="faq-content">
+            Grandpa's Fried Chicken Seasoning is a unique blend of spices created for fried chicken enthusiasts.
         </div>
-    </section>
+    
+        <div class="faq-item">
+            <p>How to check my order?</p>
+            <span class="arrow" onclick="toggleFAQ(this)">▼</span>
+        </div>
+        <div class="faq-content">
+            You can check your order by logging into your account and navigating to the "Orders" section.
+        </div>
+    
+        <div class="faq-item">
+            <p>When will my order arrive?</p>
+            <span class="arrow" onclick="toggleFAQ(this)">▼</span>
+        </div>
+        <div class="faq-content">
+            Orders typically arrive within 3-5 business days after being shipped.
+        </div>
+    
+        <div class="faq-item">
+            <p>Are the seasonings available in stores, or only online?</p>
+            <span class="arrow" onclick="toggleFAQ(this)">▼</span>
+        </div>
+        <div class="faq-content">
+            Our seasonings are available exclusively online through our website.
+        </div>
+    </div>
+                            
+                                   </h2>
+                                    </h2>
+
+                                    <div id="accordionGeneralThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionGeneral">
+
+                                        <div class="accordion-body">
+                                            <p class="large-paragraph">You can support our Tooplate website by sharing it to your friends or colleagues on the web or social media.</p>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-    <section class="section" id="testmonial">
+
+    <section class="section" id="Shipping">
         <div class="container">
-            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-            <h3 class="section-title">Testmonials</h3>
+            <h3 class="section-title">Shipping</h3>
 
-            <div id="owl-testmonial" class="owl-carousel owl-theme mt-4">
-                <div class="item">
-                    <div class="textmonial-item">
-                        <img src="assets/imgs/avatar1.jpg" class="avatar" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                        <div class="des">
-                            <h5 class="ti-quote-left font-weight-bold"></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ea facere voluptatum corrupti doloremque odit sequi labore rerum maiores libero.adipisicing elit. Vitae quasi voluptatem sed quaerat dolorum architecto reiciendis magni laboriosam, illum, nobis, quae dolor, ducimus libero! Sapiente deleniti sit dolor, ex possimus.</p>
-                            <h5 class="ti-quote-left text-right font-weight-bold"></h5>
-
-                            <div class="line"></div>
-                            <h6 class="name">Emma Re</h6>
-                            <h6 class="xs-font">Full stack developer</h6>
                         </div>
                     </div>
                 </div>
@@ -297,36 +298,6 @@
                 </div>
             </div>
         </div> 
-        </div>
-    </section>
-
-    <section class="section" id="blog">
-
-        <div class="container mb-3">
-            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-            <h3 class="section-title mb-5">Our Blog</h3>
-
-            <div class="blog-wrapper">
-                <div class="img-wrapper">
-                    <img src="assets/imgs/img-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                    <div class="date-container">
-                        <h6 class="day">29</h6>
-                        <h6 class="mun">Jun</h6> 
-                    </div>
-                </div>
-                <div class="txt-wrapper">
-                    <h4 class="blog-title">Lorem ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum vitae ducimus dolor sed numquam, assumenda non dolorem in facilis eius alias voluptates, fugit maiores aspernatur ad rem saepe molestiae consequuntur. adipisicing elit. Repellat nam placeat laboriosam dolorum aperiam fuga voluptate, quis ea vel ab sunt incidunt quasi, molestias atque deserunt voluptates quae voluptatum sit.</p>
-
-                    <a href="#" class="badge badge-info">Graphic Design</a>
-
-                    <h6 class="blog-footer">
-                        <a href="javascript:void(0)"><i class="ti-user"></i> Admin </a> |
-                        <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 213 </a> |
-                        <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
-                    </h6>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -405,6 +376,13 @@
 
     <!-- Ollie js -->
     <script src="assets/js/Ollie.js"></script>
-
+   
+     <!-- JAVASCRIPT FILES -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/Headroom.js"></script>
+     <script src="js/jQuery.headroom.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="js/custom.js"></script>
 </body>
 </html>
