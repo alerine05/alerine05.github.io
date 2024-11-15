@@ -195,11 +195,11 @@ button:focus{
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #d0a772;
+	background: #ffe4c2;
 	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
-	background: #cfa671;
+	background: #ffdfb6;
 }
 
 /*------------------------------------------------------------------
@@ -210,7 +210,7 @@ button:focus{
 	height: 100vh;
 }
 .slides-navigation a {
-	background: #cfa671;
+	background: #D9D0B2;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -407,7 +407,7 @@ button:focus{
 }
 
 .filter-button-group button.active {
-    background: #cfa671;
+    background: #D9D0B2;
     color: #fff;
     box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
@@ -459,6 +459,23 @@ button:focus{
 	bottom: 0px;
 }
 
+.special-grid .gallery-single {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery-single img {
+    flex: 1;
+    max-width: 45%; /* Control the width of the image */
+    margin-right: 20px; /* Space between the image and text */
+}
+
+.info-content {
+    flex: 1;
+    text-align: right; /* Align text to the right */
+}
+
 
 /*------------------------------------------------------------------
     Gallery
@@ -504,7 +521,7 @@ button:focus{
 }
 
 .text-warning{
-	color: #d0a772 !important;
+	color: #b2ab91 !important;
 	font-size: 24px;
 }
 
@@ -524,7 +541,7 @@ button:focus{
 }
 
 #reviews .carousel-control-prev{
-	background: #d0a772;
+	background: #D9D0B2;
 	color: #ffffff;
 	display: block;
 	position: absolute;
@@ -540,7 +557,7 @@ button:focus{
 }
 
 #reviews .carousel-control-next{
-	background: #d0a772;
+	background: #D9D0B2;
 	color: #ffffff;
 	display: block;
 	position: absolute;
